@@ -12,7 +12,7 @@ const createFood = asyncHandler( async (req, res)=>{
 
     if(!section_name || !image_url || !product_name || !one_liner || !rate || !quantity ){
         res.status(400)
-        throw new Error(" filed  mandatory")
+        throw new Error(" filed  mandatory !")
     }
     
     
